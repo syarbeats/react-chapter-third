@@ -35,7 +35,7 @@ class LeftContent extends Component {
         return (
             <div>
                 <div className="card">
-                    <div className="card-header">Left Side</div>
+                    <div className="card-header">Show Employee</div>
                     <div className="card-body">
                         <table>
                             <tbody>

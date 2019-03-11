@@ -2,6 +2,7 @@ import React , { Component } from 'react'
 
 import RightContent from './RightContent'
 import LeftContent from "./LeftContent";
+import InsertEmployee from './InsertEmployee';
 
 class MainContent extends Component {
     render(){
@@ -14,6 +15,11 @@ class MainContent extends Component {
                         </div>
                         <div className="col-md-6">
                             <RightContent />
+                        </div>
+                    </div>
+                    <div className="row" >
+                        <div className="col-md-6">
+                            <InsertEmployee/>
                         </div>
                     </div>
                 </main>
